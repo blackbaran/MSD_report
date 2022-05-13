@@ -1,0 +1,39 @@
+---
+title: "Report MSD"
+author: "Maciej Baranowski"
+date: "11-05-2022"
+output:
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+```{r}
+plot_test = readRDS("list_of_plots.rds")
+print(plot_test$plot_1)
+```
+```{r}
+plot_test = readRDS("list_of_plots.rds")
+print(plot_test$plot_2)
+```
+```{r}
+plot_test = readRDS("list_of_plots.rds")
+print(plot_test$plot_3)
+```
+```{r}
+plot_test = readRDS("list_of_plots.rds")
+print(plot_test$plot_5)
+```
+
+```{r}
+plot_test = readRDS("list_of_plots.rds")
+print(plot_test$plot_6)
+```
+
+```{r}
+plot_test = readRDS("list_of_plots.rds")
+print(plot_test$plot_7)
+```
